@@ -1,0 +1,29 @@
+.head-card{
+    display: flex;
+    align-items: center;
+}
+
+.img-card{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.data-user{
+    margin-left: 18px;
+}
+
+.data-user > p:first-child{
+    margin-top: 0;
+margin-bottom: 2px;
+font-size: 13px;
+font-weight: 600;
+}
+
+.data-user > p:last-child{
+margin-top: 2px;
+margin-bottom: 0;
+font-size: 12px;
+font-weight: 500;
+color: var(--Light-grayish-blue);
+}
